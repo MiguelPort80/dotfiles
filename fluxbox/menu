@@ -1,0 +1,7 @@
+[begin] (fluxbox)
+[include] (/etc/X11/fluxbox/fluxbox-menu)
+  [submenu] (Apps) {}
+    [exec] (firefox) {/usr/bin/firefox}
+    [exec] (sakura)  {/usr/bin/sakura}
+  [end]
+[end]
